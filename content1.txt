@@ -1,0 +1,153 @@
+#Linux 
+Install Xtream Download Manager in linux:
+
+sudo wget https://github.com/subhra74/xdm/releases/download/7.2.11/xdm-setup-7.2.11.tar.xz
+sudo tar -xvf xdm-setup-7.2.11.tar.xz
+sudo bash install.sh
+
+Reference:
+http://www.linuxandubuntu.com/home/xtreme-download-manager
+
+
+#Linux How to Install and Use YouTube-DL on Linux System
+https://www.ubuntupit.com/how-to-install-and-use-youtube-dl-on-linux-system/
+
+
+#termux https://itrendbuzz.com/install-youtube-dl-on-termux/
+
+
+#Linux #youtube-dl
+Youtube-dl Tutorial To Download video:
+
+NOTE: Not a Installation Guide.
+
+ View All Avilable Formats
+ $ youtube-dl -F <Video-URL>
+ EX:
+$ youtube-dl -F https://www.youtube.com/watch?v=PrOhbi1S5Gk
+[youtube] PrOhbi1S5Gk: Downloading webpage
+[info] Available formats for PrOhbi1S5Gk:
+format code  extension  resolution note
+249          webm       audio only tiny   65k , opus @ 50k (48000Hz), 609.00KiB
+250          webm       audio only tiny   83k , opus @ 70k (48000Hz), 798.30KiB
+140          m4a        audio only tiny  130k , m4a_dash container, mp4a.40.2@128k (44100Hz), 1.43MiB
+251          webm       audio only tiny  150k , opus @160k (48000Hz), 1.52MiB
+394          mp4        256x144    144p   72k , av01.0.00M.08.0.110.01.01.06.0, 25fps, video only, 768.58KiB
+278          webm       256x144    144p   96k , webm container, vp9, 25fps, video only, 1.02MiB
+160          mp4        256x144    144p  111k , avc1.4d400c, 25fps, video only, 1.08MiB
+395          mp4        426x240    240p  154k , av01.0.00M.08.0.110.01.01.06.0, 25fps, video only, 1.58MiB
+242          webm       426x240    240p  224k , vp9, 25fps, video only, 2.28MiB
+133          mp4        426x240    240p  255k , avc1.4d4015, 25fps, video only, 2.27MiB
+396          mp4        640x360    360p  322k , av01.0.01M.08.0.110.01.01.06.0, 25fps, video only, 3.28MiB
+243          webm       640x360    360p  409k , vp9, 25fps, video only, 4.06MiB
+134          mp4        640x360    360p  532k , avc1.4d401e, 25fps, video only, 4.60MiB
+397          mp4        854x480    480p  591k , av01.0.04M.08.0.110.01.01.06.0, 25fps, video only, 5.91MiB
+244          webm       854x480    480p  761k , vp9, 25fps, video only, 7.12MiB
+135          mp4        854x480    480p  793k , avc1.4d401e, 25fps, video only, 6.78MiB
+398          mp4        1280x720   720p 1095k , av01.0.05M.08.0.110.01.01.06.0, 25fps, video only, 10.82MiB
+136          mp4        1280x720   720p 1342k , avc1.4d401f, 25fps, video only, 11.24MiB
+247          webm       1280x720   720p 1513k , vp9, 25fps, video only, 12.99MiB
+399          mp4        1920x1080  1080p 1921k , av01.0.08M.08.0.110.01.01.06.0, 25fps, video only, 18.38MiB
+248          webm       1920x1080  1080p 2663k , vp9, 25fps, video only, 24.68MiB
+137          mp4        1920x1080  1080p 4345k , avc1.640028, 25fps, video only, 33.27MiB
+18           mp4        640x360    360p  711k , avc1.42001E, 25fps, mp4a.40.2@ 96k (44100Hz), 7.85MiB (best)
+
+ Download Video With audio:
+ $ youtube-dl -f <video formate code>+<audio format code> <Video-URL>
+ 
+ Ex: in 720p
+ $ youtube-dl -f 251+136 https://www.youtube.com/watch?v=PrOhbi1S5Gk
+ 
+ Download only Audio:
+ $ youtube-dl -f <Audio format code> <Video-URL>
+ 
+ Ex: in webm
+ $ youtube-dl -f 251 https://www.youtube.com/watch?v=PrOhbi1S5Gk
+
+
+#Linux 
+VMWare Workstation doesn't ship in a deb, so it isn't registered in dpkg (which is why you can't find it in the software center). It does have an install and uninstall utility though.
+
+To uninstall VMWare Workstation, you will need to run:
+
+$ sudo vmware-installer --uninstall-product vmware-workstation  
+If you just run:
+
+$ vmware-installer
+
+by itself, it will print all the options you have available. If you run:
+
+$ vmware-installer -l
+
+It will print a list of all VMWare products you have installed.
+
+Similarly, to uninstall VMWare Player:
+
+$ sudo vmware-installer --uninstall-product vmware-player
+
+
+Vmware Workstation pro Download Link:
+https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html
+
+
+#Linux #Kali
+How to enable SSH in Kali Linux
+https://linuxhint.com/enable_ssh_kali_linux_2020/
+#Linux #Kali Install SSH (Secure Shell) Service on Kali Linux
+
+https://shouts.dev/install-ssh-service-on-kali-linux
+#Linux #Kali How to Enable and Start SSH on Kali Linux
+https://www.lmgsecurity.com/enable-start-ssh-kali-linux/
+
+
+#Linux #python
+How to create a telegram bot with Python in minutes
+
+http://thepythoncorner.com/dev/how-create-telegram-bot-in-Python/
+
+
+
+#linux #ffmpeg
+https://www.hongkiat.com/blog/ffmpeg-guide/
+https://blog.addpipe.com/converting-webm-to-mp4-with-ffmpeg/
+
+
+#debian 
+Best text editors:
+https://sourcedigit.com/25491-best-text-editor-ubuntu-20-04-code-edior-ubuntu-20-04/
+
+
+#linux #ffmpeg
+https://www.tecmint.com/ffmpeg-commands-for-video-audio-and-image-conversion-in-linux/
+#Linux #ffmpeg 
+https://dev.to/benjaminblack/use-ffmpeg-to-compress-and-convert-videos-458l
+
+
+#linux #Wificli
+Disconnect Wifi In Cli On Linux
+https://telegra.ph/Connect-And-Disconnect-WiFi-From-Commandline-In-Linux-12-15
+Telegraph
+Connect And Disconnect WiFi From Commandline In Linux
+Even though getting things done via graphical mode is quite easy, you should know how to perform most of the tasks from commandline in Linux. Because,...
+#linux #WrDisk
+Get Write Permission Of Other than Main System  partition:
+
+$ sudo chmod ugo+wx /media/username/your_drive
+#Linux #ffmpeg
+
+How to Extract Audio From video File:
+ffmpeg -i $inputfile.mp4 -map 0:a:0 a.mp3
+
+Remve Audio From Video  Or Mute a Video:
+ffmpeg -i $input_file -c copy -an $output_file
+
+Merge Audio+Video file Together:
+ffmpeg -i a.mp4 -i a.mp3 -c:v copy -c:a copy out.mp4
+#Linux #Anydesk 
+Install anydesk in ubuntu:
+https://linoxide.com/tools/how-to-install-anydesk-on-ubuntu-20-04/
+#ubuntu 
+Oracle 11g in ubuntu:
+https://www.nakivo.com/blog/how-to-install-oracle-on-ubuntu-linux-waltkhrough/
+
+
